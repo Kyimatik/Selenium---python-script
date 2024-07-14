@@ -11,8 +11,8 @@ import schedule
 from selenium_stealth import stealth
 
 # Параметры для Telegram
-TOKEN = "7177926830:AAGyvSISiy_HNeJkuXZMymUClbD8pyjYg9k"
-group_id = "-4227975865"
+TOKEN = "&"
+group_id = "&"
 
 # Функция для отправки сообщения в Telegram
 def send_message(text):
@@ -56,7 +56,7 @@ def job():
     target_year = "2024"
 
     try:
-        driver.get("")
+        driver.get("any website")
         time.sleep(1)
 
         ok_button = WebDriverWait(driver, 10).until(
