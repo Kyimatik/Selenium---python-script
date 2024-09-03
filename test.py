@@ -66,11 +66,11 @@ def job():
 
         email_input = driver.find_element(By.ID, "user_email")
         email_input.clear()
-        email_input.send_keys("toktobaevemil06@gmail.com")
+        email_input.send_keys("?")
 
         password_input = driver.find_element(By.ID, "user_password")
         password_input.clear()
-        password_input.send_keys("AIZHAN2003")
+        password_input.send_keys("?")
 
         label = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='policy_confirmed']"))
